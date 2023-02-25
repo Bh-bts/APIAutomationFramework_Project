@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-25T20:32:46 IST" name="Default suite" finished-at="2023-02-25T20:32:54 IST" duration-ms="8016">
+    <groups>
+    </groups>
+    <test started-at="2023-02-25T20:32:46 IST" name="Default test" finished-at="2023-02-25T20:32:54 IST" duration-ms="8016">
+      <class name="com.API.testcase.ExtractData">
+        <test-method signature="loginPostReq()[pri:0, instance:com.API.testcase.ExtractData@2f8dad04]" started-at="2023-02-25T20:32:46 IST" name="loginPostReq" finished-at="2023-02-25T20:32:54 IST" duration-ms="7933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPostReq -->
+      </class> <!-- com.API.testcase.ExtractData -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

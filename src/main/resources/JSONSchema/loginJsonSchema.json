@@ -1,0 +1,103 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/Welcome3",
+    "definitions": {
+        "Welcome3": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "message": {
+                    "type": "string"
+                },
+                "data": {
+                    "$ref": "#/definitions/Data"
+                }
+            },
+            "required": [
+                "data",
+                "message"
+            ],
+            "title": "Welcome3"
+        },
+        "Data": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "_id": {
+                    "type": "string"
+                },
+                "first_name": {
+                    "type": "string"
+                },
+                "last_name": {
+                    "type": "string"
+                },
+                "mobile_number": {
+                    "type": "string"
+                },
+                "username": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "role": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "integer"
+                },
+                "is_deleted": {
+                    "type": "integer"
+                },
+                "is_account_active": {
+                    "type": "integer"
+                },
+                "ip": {
+                    "type": "string"
+                },
+                "createdAt": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "updatedAt": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "__v": {
+                    "type": "integer"
+                },
+                "token": {
+                    "type": "string"
+                },
+                "last_login": {
+                    "type": "string",
+                    "format": "date-time"
+                }
+            },
+            "required": [
+                "__v",
+                "_id",
+                "createdAt",
+                "email",
+                "first_name",
+                "ip",
+                "is_account_active",
+                "is_deleted",
+                "last_login",
+                "last_name",
+                "mobile_number",
+                "password",
+                "role",
+                "status",
+                "token",
+                "updatedAt",
+                "username"
+            ],
+            "title": "Data"
+        }
+    }
+}
